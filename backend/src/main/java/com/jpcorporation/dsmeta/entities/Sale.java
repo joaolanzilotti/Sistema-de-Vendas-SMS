@@ -1,6 +1,7 @@
-package com.jpcorporation.entities;
+package com.jpcorporation.dsmeta.entities;
 
 import java.time.LocalDate;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -14,7 +15,6 @@ public class Sale {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
-    
     private String sellerName;
     private Integer visited;
     private Integer deals;
