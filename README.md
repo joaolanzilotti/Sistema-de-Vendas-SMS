@@ -7,10 +7,11 @@
 
 <p align="center"> <i> Sistema Feito com React, Java, Spring Boot, TypeScript </i> </p>
 
-<a href="https://github.com/joaosinho2/Cadastro-e-Login-Java" target="_blank"><img align="center" alt="JP-REACT" height="50" width="50" src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png"></a>
-<img align="center" alt="JP-JAVA" height="50" width="50" src="https://cdn-icons-png.flaticon.com/512/226/226777.png">
-<a href="https://github.com/joaosinho2/Cadastro-e-Login-Java" target="_blank"><img align="center" alt="JP-SPRING" height="50" width="50" src="https://dzone.com/storage/temp/12434118-spring-boot-logo.png"></a>
-<a href="https://github.com/joaosinho2/Cadastro-e-Login-Java" target="_blank"><img align="center" alt="JP-TYPESCRIPT" height="50" width="50" src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png"></a>
+<a href="https://github.com/joaosinho2/dsmeta" target="_blank"><img align="center" alt="JP-REACT" height="50" width="50" src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png"></a>
+<a href="https://github.com/joaosinho2/dsmeta" target="_blank">
+<img align="center" alt="JP-JAVA" height="50" width="50" src="https://cdn-icons-png.flaticon.com/512/226/226777.png"></a>
+<a href="https://github.com/joaosinho2/dsmeta" target="_blank"><img align="center" alt="JP-SPRING" height="50" width="50" src="https://dzone.com/storage/temp/12434118-spring-boot-logo.png"></a>
+<a href="https://github.com/joaosinho2/dsmeta" target="_blank"><img align="center" alt="JP-TYPESCRIPT" height="50" width="50" src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png"></a>
 
 
 </div>
