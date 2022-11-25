@@ -20,10 +20,14 @@ function SalesCard() {
   //È Executado ao carregar a página o useEffect
   //.then só vai me retornar quando tiver algo
   useEffect(() => {
-    axios.get(`${BASE_URL}/sales`).then(Response => {
+
+    const dmin = minDate.toISOString().slice(0, 10);
+    const dmax = maxDate.toISOString().slice(0, 10);
+
+    axios.get(`${BASE_URL}/sales?minDate=${dmin}&maxDate=${dmax}`).then(Response => {
       setSales(Response.data.content);
     });
-  }, [])
+  }, [minDate, maxDate]) //-> Quando eu coloco valores aqui, ele vai executar novamente o useEffect sempre que o valor que eu coloquei dentro mudar
 
   return (
     <div className="dsmeta-card">
@@ -78,7 +82,7 @@ function SalesCard() {
                     </td>
                   </tr>
                 )
-              })};
+              })}
           </tbody>
 
         </table>
